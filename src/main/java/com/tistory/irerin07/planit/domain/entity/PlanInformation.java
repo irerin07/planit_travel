@@ -25,7 +25,7 @@ import lombok.NoArgsConstructor;
 @DynamicUpdate
 @Entity
 @Table(name = "tb_plan_information")
-public class PlanInformation extends AbstractEntity {
+public class PlanInformation extends AbstractStatementEntity {
 
   @Serial
   private static final long serialVersionUID = -7268999018507063679L;

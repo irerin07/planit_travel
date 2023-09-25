@@ -25,6 +25,10 @@ public class UserDetail implements UserDetails {
   @Getter
   private final UserDto user;
 
+  public UserDetail(UserDto user) {
+    this.user = user;
+  }
+
   @Override
   public Collection<? extends GrantedAuthority> getAuthorities() {
     return null;
