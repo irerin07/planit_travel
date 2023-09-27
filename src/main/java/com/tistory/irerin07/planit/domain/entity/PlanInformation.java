@@ -30,18 +30,16 @@ public class PlanInformation extends AbstractStatementEntity {
   @Serial
   private static final long serialVersionUID = -7268999018507063679L;
 
+  private Long seqUser;
   private String title;
-
   private String country;
-
   private Integer days;
-
-  private Integer night;
-
+  private Integer nights;
   private LocalDate from;
-
   private LocalDate to;
-
-  private Integer people;
+  private  Integer people;
+  private Boolean publicStatus;
+  private Integer saleStatus; // TODO enum으로 변경
+  private Integer price;
 
 }
